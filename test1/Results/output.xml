@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.5 on win32)" generated="20231228 19:39:29.006" rpa="false" schemaversion="4">
+<suite id="s1" name="SampleScript" source="E:\develop\automation\robot_framework\test1\SampleScript.robot">
+<test id="s1-t1" name="As a user i want to open web scraping" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://web-app-flask-i6k3zlyrya-de.a.run.app/visual</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231228 19:39:29.169" level="INFO">Opening browser 'chrome' to base url 'https://web-app-flask-i6k3zlyrya-de.a.run.app/visual'.</msg>
+<status status="PASS" starttime="20231228 19:39:29.168" endtime="20231228 19:39:31.740"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231228 19:39:33.755" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231228 19:39:31.742" endtime="20231228 19:39:33.755"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20231228 19:39:33.904" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20231228 19:39:33.755" endtime="20231228 19:39:33.904"/>
+</kw>
+<status status="PASS" starttime="20231228 19:39:29.167" endtime="20231228 19:39:33.904"/>
+</test>
+<status status="PASS" starttime="20231228 19:39:29.007" endtime="20231228 19:39:33.905"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="SampleScript">SampleScript</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
