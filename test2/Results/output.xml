@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.5 on win32)" generated="20231229 23:01:08.572" rpa="false" schemaversion="4">
+<suite id="s1" name="SampleScript" source="E:\develop\automation\robot_framework\GitRobotFramework\test2\SampleScript.robot">
+<test id="s1-t1" name="Open Web" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://web-app-flask-i6k3zlyrya-de.a.run.app/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231229 23:01:08.738" level="INFO">Opening browser 'chrome' to base url 'https://web-app-flask-i6k3zlyrya-de.a.run.app/'.</msg>
+<status status="PASS" starttime="20231229 23:01:08.738" endtime="20231229 23:01:13.293"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231229 23:01:15.305" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231229 23:01:13.294" endtime="20231229 23:01:15.305"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//div[@id="scraping-abahouse"]//input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231229 23:01:15.305" level="INFO">Clicking element '//div[@id="scraping-abahouse"]//input'.</msg>
+<status status="PASS" starttime="20231229 23:01:15.305" endtime="20231229 23:02:28.877"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231229 23:02:30.884" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231229 23:02:28.877" endtime="20231229 23:02:30.884"/>
+</kw>
+<status status="PASS" starttime="20231229 23:01:08.738" endtime="20231229 23:02:30.884"/>
+</test>
+<status status="PASS" starttime="20231229 23:01:08.574" endtime="20231229 23:02:30.884"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="SampleScript">SampleScript</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
